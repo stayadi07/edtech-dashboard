@@ -1,0 +1,105 @@
+.create-assessment-text {
+  color: var(--text-100, #1c4980);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.create-assessment-header {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--system-stroke-2, #dadce0);
+  background: #fff;
+}
+
+.create-assessment-container {
+  width: 591px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-fields-container {
+  display: flex;
+  padding: 20px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 20px; */
+  align-self: stretch;
+  border: 1px solid var(--system-stroke-2, #dadce0);
+  background: #fff;
+}
+
+.input-header {
+  color: var(--text-100, #1c4980);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.input-fields {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--system-stroke-2, #dadce0);
+  background: #fff;
+}
+
+.skills-box-container {
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--system-divider, #dde5ea);
+}
+
+.skills-values {
+  display: flex;
+  padding: 6px 8px 6px 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+  border-radius: 22px;
+  background: var(--accent-blue-light, #ddedff);
+}
+
+.button-container {
+  align-self: stretch;
+}
+
+.save-button {
+  border-radius: 8px;
+  background: var(--secondary-1, #0073e6);
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 40px;
+  padding: 10px 30px;
+  width: 100%;
+  border: none;
+}

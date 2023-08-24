@@ -1,0 +1,217 @@
+.bottom-view-container-wrapper {
+  padding: 0 20px;
+}
+
+.bottom-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.bottom-view-text {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.bottom-view-main-content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.new-assessment-container {
+  width: 388px;
+  height: 209px;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px dashed var(--system-stroke-2, #dadce0);
+  background: var(--system-background, #f6f8fa);
+}
+
+.add-icon-container {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 72px;
+  background: #fff;
+}
+
+.add-icon-button {
+  cursor: pointer;
+}
+
+.new-assessment-text {
+  color: var(--text-100, #1c4980);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.new-assessment-content {
+  color: var(--text-100, #1c4980);
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.math-assessment-container {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid var(--system-stroke-2, #dadce0);
+  background: var(--text-white, #fff);
+}
+
+.icon-threeDots-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.three-dots-container {
+  padding: 6px 0;
+}
+
+.icon-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.math-assessment-text {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.sub-icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.job-text {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+}
+
+.date-content {
+  color: var(--primary-50, #8da4bf);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.time-question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.duration-question-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.share-user-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.share {
+  display: flex;
+  height: 30px;
+  padding: 2px 8px 2px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 50px;
+  border: 1px solid var(--text-100, #1c4980);
+  background: var(--text-white, #fff);
+}
+
+.share-text {
+  color: #1c4980;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.user {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 32.728px;
+  border: 1px solid var(--text-white, #fff);
+  background: var(--pastel-neon-blue, #6548ee);
+}
+
+.user-value {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.duration-value,
+.duration-text {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+}
